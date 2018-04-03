@@ -38,7 +38,7 @@ restart.onclick = function () {
 };
 
 intro.onclick = function () {
-    alert("~~一起來體驗曬鹽的過程吧!!~~\n操作說明:\n1.使用鹽刷點擊小鹽堆，在鹽田中堆出鹽堆\n2.使用鏟子把鹽放到竹簍中\n3.當竹簍裝滿時點選竹簍圖示把鹽搬到鹽山\n\nWeb:NCKU 林凱尉  Image:NCKU 鄭翔升");
+    alert("~~一起來體驗曬鹽的過程吧!!~~\n操作說明:\n1.使用鹽刷點擊小鹽堆，在鹽田中堆出鹽堆\n2.使用鏟子點擊鹽堆，把鹽放到竹簍中\n3.當竹簍裝滿時點選竹簍圖示把鹽搬到鹽山\n\nWeb:NCKU 林凱尉  Image:NCKU 鄭翔升");
 }
 
 brush.onclick = function () {
