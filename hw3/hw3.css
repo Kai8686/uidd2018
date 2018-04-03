@@ -1,0 +1,150 @@
+﻿body {
+    width: 1366px;
+    height: 768px;
+    background: rgba(0, 0, 0, 0.2);
+    background-image: url(res/other/bg.png);
+    background-repeat: no-repeat;
+    background-size: 1366px 768px;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -384px 0 0 -683px;
+    overflow: hidden;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select:none;
+}
+
+#cover {
+    content: url(res/other/cover.png);
+    object-fit: contain;
+    opacity: 0.85;
+    z-index: 5;
+}
+
+.icon {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+#start_icon {
+    content: url(res/other/chstart_a.png);
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+}
+
+#start_icon:hover {
+    content: url(res/other/chstart_b.png);
+}
+
+#restart_icon {
+    content: url(res/other/restart_a.png);
+    left: 78%;
+    top: 85%;
+}
+
+#restart_icon:hover {
+    content: url(res/other/restart_b.png);
+}
+
+#intro_icon {
+    content: url(res/other/intro_a.png);
+    left: 63%;
+    top: 85%;
+}
+
+#intro_icon:hover {
+    content: url(res/other/intro_b.png);
+}
+
+.fixed_sio {
+    content: url(res/process/sio_4.png);
+    position: absolute;
+    border: 0;
+    z-index: -1;
+}
+
+.sio1 {
+    width: 216px;
+    height: 134px;
+    left: 36%;
+    top: 7%;
+}
+
+.sio2 {
+    width: 208px;
+    height: 128px;
+    left: 63%;
+    top: 7%;
+}
+
+.sio3 {
+    width: 150px;
+    height: 68px;
+    left: 90%;
+    top: 10%;
+}
+
+.sio4 {
+    width: 216px;
+    height: 134px;
+    left: 82%;
+    top: 30%;
+}
+
+.icon.brush {
+    content: url(res/tool/brush_a.png);
+    left: 7%;
+    top: 10%;
+}
+
+.icon.brush:hover {
+    content: url(res/tool/brush_b.png);
+}
+
+.icon.bag {
+    content: url(res/tool/bag_a.png);
+    left: 7%;
+    top: 25%;
+}
+
+.icon.bag:hover {
+    content: url(res/tool/bag_b.png);
+}
+
+.icon.shove {
+    content: url(res/tool/shove_a.png);
+    left: 7%;
+    top: 40%;
+}
+
+.icon.shove:hover {
+    content: url(res/tool/shove_b.png);
+}
+
+.process {
+    position: absolute;
+    z-index: -1;
+}
+
+.process.bag {
+    left: 18%;
+    top: 38%;
+    width: 250px;
+}
+
+.process.yama {
+    left: 7%;
+    bottom: 2%;
+    width: 450px;
+}
+
+.process.sio {
+    left: 57%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
